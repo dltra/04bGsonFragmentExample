@@ -8,7 +8,7 @@
     tools:context=".MainFragment">
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/selector_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/click_message"
@@ -18,16 +18,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_display"
-        android:layout_width="100dp"
+        android:id="@+id/display_text"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:text="@string/display_text"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_next"
+        app:layout_constraintTop_toBottomOf="@+id/selector_btn"
         app:layout_constraintVertical_bias="0.196" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

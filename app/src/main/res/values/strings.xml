@@ -2,4 +2,21 @@
     <string name="app_name">Gson Fragment Example</string>
     <string name="click_message">Click Me</string>
     <string name="display_text">I Display</string>
+    <string name="data">
+        { list_data :
+            [
+                {itemNumber: 1, description: "A", quantity: 11},
+                {itemNumber: 2, description: "B", quantity: 22},
+                {itemNumber: 3, description: "C", quantity: 33},
+                {itemNumber: 4, description: "D", quantity: 44},
+                {itemNumber: 5, description: "E", quantity: 55},
+                {itemNumber: 6, description: "F", quantity: 66},
+                {itemNumber: 7, description: "G", quantity: 77},
+                {itemNumber: 8, description: "H", quantity: 88},
+                {itemNumber: 9, description: "I", quantity: 99}
+            ]
+        }
+    </string>
+    <string name="greeting_msg">Good Morning</string>
+    <string name="termination_msg">Bye</string>
 </resources>
